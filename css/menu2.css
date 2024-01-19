@@ -1,0 +1,30 @@
+:root{
+    --bg-color:  rgba(255, 249, 200, 0.7);
+ }
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ body{
+     height: fit-content;
+     background-color: var(--bg-color);
+ }
+ .img{
+     background-image: url("/img/menue2.jpg");
+     background-size: cover;
+     height: 1000px;
+ } 
+ .moba-img{
+    display: none;
+}
+ @media (max-width: 768px) {
+    .img{
+        display: none;
+    }
+        .moba-img{
+        display:block;
+    }
+    .moba-img img{
+        width: 420px;
+    }
+    }
