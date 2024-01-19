@@ -10,7 +10,7 @@ body{
     background-color: var(--bg-color);
 }
 .img{
-    background-image: url("/img/menue1.jpg");
+    background-image: url("../img/menue1.jpg");
     background-size: cover;
     height: 1000px;
 
